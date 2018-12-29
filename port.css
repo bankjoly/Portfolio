@@ -7,7 +7,7 @@ body.fade-out {
     transition: none;
 }
 body{
-    background-image: image-set("C:\Users\joelt\Documents\PORTFOLIO\computers_code.jpg");
+    background-image: url("computers_code.jpg");
     /* background-color: bisque; */
 }
 header{
