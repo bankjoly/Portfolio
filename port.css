@@ -1,0 +1,75 @@
+body {
+    opacity: 1;
+    transition: 5s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+body{
+    background-image: image-set("C:\Users\joelt\Documents\PORTFOLIO\computers_code.jpg");
+    /* background-color: bisque; */
+}
+header{
+    background-color: #00ffb0;
+}
+header:hover{
+    background-color: #ff0a00;
+}
+#head{
+    margin: auto;
+    border: 10px groove black;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    /* background-color: #00ffb0; */
+    font-style: oblique;
+    font-size: 40px;
+    /* display: none; */
+}
+#flex{
+    padding: 40px 00px 0px 20px;
+    display: flex;
+    /* border: 5px solid black; */
+    /* width: 80%; */
+}
+#foot{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#title{
+    background-color: #00ffb0;
+    border: 3px outset black;
+    padding: 1px ;
+    /* display: flex; */
+}
+#about{
+    padding-right: 00px;
+    border: 4px ridge black;
+    background-Color:   white;
+    /* display: flex; */
+}
+
+.job{
+    margin: 60px 5% 00 9%;
+    border: 3px ;
+    border-style: dotted double dotted double;
+    background-color: white;
+    text-align: left;
+    width: 50%;
+    padding: 00 20px 00 20px;
+    /* display: flex; */
+    font-size: 20px
+}
+.para{
+    margin: 00px 05% 00px 40%;
+    border: 3px ;
+    border-style: dotted double dotted double;
+    background-color: white;
+    text-align: left;
+    /* width: 50%; */
+    padding: 00 00px 00px 30px;
+    font-size: 20px
+}
